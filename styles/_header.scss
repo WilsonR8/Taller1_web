@@ -1,8 +1,16 @@
+.bg{
+     background-image: url('../img/banner.jpg');
+     background-size: cover;
+     min-height: 960px;
+}
 .header{
+   
     width: 100%;
-    background-color: black;
+    
     color: whitesmoke;
-    padding: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -26,7 +34,7 @@
    
    
     .imglogo{
-        height: 5rem;
+        height: 7rem;
     
     }
 
@@ -46,7 +54,7 @@
     }
 
     h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
 }
