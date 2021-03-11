@@ -132,6 +132,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  padding-bottom: 2rem;
 }
 
 table {
@@ -172,6 +173,8 @@ td, th {
 
 .newsletter {
   padding: 10rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
   background-color: #131313;
 }
 
@@ -208,4 +211,39 @@ td, th {
 .newscont input {
   margin-top: 2rem;
   font-size: 1.2rem;
+}
+
+.content {
+  background-color: #262626;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.footimglogo {
+  height: 7rem;
+}
+.footimglogo img {
+  height: 100%;
+}
+
+.content > div {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  text-decoration: none;
+  /*align-items: center;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background-color:rgba($color: whitesmoke, $alpha: 0.1); */
 }/*# sourceMappingURL=main.css.map */
