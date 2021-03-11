@@ -89,7 +89,7 @@
 }
 
 .tabletitlebg {
-  background-color: black;
+  background-color: #131313;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -168,4 +168,44 @@ td, th {
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: whitesmoke;
+}
+
+.newsletter {
+  padding: 10rem;
+  background-color: #131313;
+}
+
+.newsletter > .newsbox {
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+}
+
+.imgnews {
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 60%;
+}
+.imgnews img {
+  width: 100%;
+  height: 100%;
+}
+
+.newscont {
+  padding: 3rem;
+  max-width: 30rem;
+}
+.newscont h3 {
+  font-size: 2rem;
+}
+.newscont p {
+  margin-top: 2rem;
+}
+.newscont input {
+  margin-top: 2rem;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=main.css.map */
