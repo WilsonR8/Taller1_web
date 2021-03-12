@@ -1,16 +1,19 @@
 .bg{
      background-image: url('../img/banner.jpg');
      background-size: cover;
-     min-height: 960px;
+     min-height: 700px;
+     width: 100%;
+     
+    
 }
 .header{
    
     width: 100%;
     
     color: whitesmoke;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-top: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -34,7 +37,7 @@
    
    
     .imglogo{
-        height: 7rem;
+        height: 5rem;
     
     }
 
@@ -49,10 +52,10 @@
     a{
         text-decoration: none;
         color: whitesmoke;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-decoration: none;
         align-items: center;
-        padding: 0.8rem;
+        padding: 0.5rem;
         border-radius: 0.5rem;
         background-color:rgba($color: whitesmoke, $alpha: 0.1);  
     }
