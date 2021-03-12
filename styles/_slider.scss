@@ -9,15 +9,15 @@
 }
 
 .slider{
-    width: 1200px;
-    height: 800px;
+    width: 800px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
     width: 500%;
-    height: 800px;
+    height: 500px;
     display: flex;
 }
 
@@ -31,14 +31,14 @@
 }
 
 .slide img{
-    width: 1200px;
-    height: 800px;
+    width: 800px;
+    height: 500px;
 }
 
 
 .manualnav{
 position: absolute;
-width: 1200px;
+width: 800px;
 margin-top: -40px;
 display: flex;
 justify-content: center;
@@ -70,3 +70,36 @@ transition: 1s;
     margin-left: -40%;
 }
 
+.autonav{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+
+
+}
+
+.autonav div{
+border: 2px solid whitesmoke;
+padding: 5px;
+border-radius: 10px;
+transition: 1s;
+
+}
+
+.autonav div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radiobtn1:checked~.autonav .autobtn1{
+    background: whitesmoke;
+}
+
+#radiobtn2:checked~.autonav .autobtn2{
+    background: whitesmoke;
+}
+
+#radiobtn3:checked~.autonav .autobtn3{
+    background: whitesmoke;
+}
