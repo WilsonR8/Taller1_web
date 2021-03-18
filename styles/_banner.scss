@@ -1,7 +1,10 @@
 .contentbanner{
-    padding-top: 3rem;
+    min-height: 700px;
+    padding-top: 10rem;
     padding-left: 7rem;
     padding-right: 7rem;
+    position:relative;
+    z-index: 10;
     
     h2{
         width: 43%;
