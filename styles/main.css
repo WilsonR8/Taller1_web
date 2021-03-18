@@ -272,10 +272,9 @@ a {
   border-radius: 10px;
   overflow: hidden;
 }
-
-.slides {
-  width: 500%;
-  height: 500px;
+.slider .slides {
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
@@ -284,7 +283,7 @@ a {
 }
 
 .slide {
-  width: 20%;
+  width: 100%;
   transition: 2s;
 }
 
@@ -322,11 +321,11 @@ a {
 }
 
 #radiobtn2:checked ~ .first {
-  margin-left: -20%;
+  margin-left: -100%;
 }
 
 #radiobtn3:checked ~ .first {
-  margin-left: -40%;
+  margin-left: -200%;
 }
 
 .autonav {
