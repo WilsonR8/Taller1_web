@@ -603,8 +603,8 @@ a {
   }
 
   .slider {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -615,13 +615,13 @@ a {
   }
 
   .slide img {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
   }
 
   .manualnav {
     position: absolute;
-    width: 400px;
+    width: 350px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -630,8 +630,8 @@ a {
   .autonav {
     position: absolute;
     display: flex;
-    width: 400px;
+    width: 350px;
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 160px;
   }
 }/*# sourceMappingURL=main.css.map */
