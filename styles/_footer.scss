@@ -46,7 +46,9 @@ a{
         display: flex;
         flex-direction: column;
         align-content: center;
+        padding: 0;
         padding-top: 2rem;
+        padding-bottom: 2rem;
 
         a{
             display: none;
@@ -58,8 +60,8 @@ a{
 
 
         .footimglogo{
-            width:7rem;
-            height: 7rem;
+            width:5rem;
+            height: 5rem;
             
             img{
                 height: 100%;
@@ -69,7 +71,6 @@ a{
           h5{
             padding-top: 1rem;
             font-size: 1rem;
-            right: 50%;
         }
 
        

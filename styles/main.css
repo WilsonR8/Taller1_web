@@ -271,7 +271,7 @@ td, th {
   .tbg > div {
     width: 100%;
     height: 100%;
-    min-height: 600px;
+    min-height: 750px;
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
@@ -289,7 +289,7 @@ td, th {
     background-position-y: 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 750px;
   }
 
   .tabletitlecont {
@@ -321,9 +321,7 @@ td, th {
   }
 
   .addcart {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
   }
   .addcart p {
     color: whitesmoke;
@@ -395,7 +393,7 @@ td, th {
     border-radius: 0.5rem;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width: 30%;
+    width: 20%;
     overflow: hidden;
   }
   .imgnews img {
@@ -406,7 +404,7 @@ td, th {
 
   .newscont {
     padding: 1rem;
-    max-width: 15rem;
+    max-width: 10rem;
   }
   .newscont h3 {
     font-size: 2rem;
@@ -464,15 +462,17 @@ a {
     display: flex;
     flex-direction: column;
     align-content: center;
+    padding: 0;
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .content a {
     display: none;
   }
 
   .footimglogo {
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
   }
   .footimglogo img {
     height: 100%;
@@ -481,7 +481,6 @@ a {
   h5 {
     padding-top: 1rem;
     font-size: 1rem;
-    right: 50%;
   }
 
   p {
@@ -595,7 +594,7 @@ a {
   .imgslider {
     margin: 0;
     padding: 0;
-    height: 30rem;
+    height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -603,7 +602,7 @@ a {
   }
 
   .slider {
-    width: 350px;
+    width: 300px;
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
@@ -615,13 +614,13 @@ a {
   }
 
   .slide img {
-    width: 350px;
+    width: 300px;
     height: 200px;
   }
 
   .manualnav {
     position: absolute;
-    width: 350px;
+    width: 300px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -630,7 +629,7 @@ a {
   .autonav {
     position: absolute;
     display: flex;
-    width: 350px;
+    width: 300px;
     justify-content: center;
     margin-top: 160px;
   }

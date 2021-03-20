@@ -119,7 +119,7 @@ td, th {
     .tbg > div{
         width: 100%;
         height: 100%;
-        min-height: 600px;
+        min-height: 750px;
         background-color: rgba($color: black, $alpha: 0.8);
         display: flex;
         flex-direction: column;
@@ -137,7 +137,7 @@ td, th {
         background-position-y: 50%;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 600px;
+        min-height: 750px;
         
     }
 
@@ -174,9 +174,7 @@ td, th {
 
     .addcart{
    
-        padding-top: 2rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+       padding: 2rem;
     
     
         p{
