@@ -380,7 +380,7 @@ td, th {
   font-size: 1rem;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 769px) {
   .newsletter {
     padding-bottom: 3rem;
     padding-left: 2rem;
@@ -590,7 +590,7 @@ a {
   background: whitesmoke;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 769px) {
   .imgslider {
     margin: 0;
     padding: 0;
