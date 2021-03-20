@@ -25,7 +25,7 @@
     height: 100%;
     background-color: rgba($color: black, $alpha: 0.4);
 }
-.header{
+.head{
    position: absolute;
     width: 100%;
     color: whitesmoke;
@@ -35,7 +35,6 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    min-width: 430px;
     z-index:2;
 
     .home{ 
@@ -85,17 +84,22 @@
 
 
 @media all and (max-width:769px){
-    .header{
-    position: absolute;
+
+
+    .head{
     color: whitesmoke;
+    margin: 0;
+    padding: 0;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
     z-index:2;
 
+    
+
     .imglogo{
         height: 4rem;
-    
+        display: flex;
     }
     }
 

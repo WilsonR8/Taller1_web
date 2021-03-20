@@ -31,7 +31,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.header {
+.head {
   position: absolute;
   width: 100%;
   color: whitesmoke;
@@ -41,26 +41,25 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
-  min-width: 430px;
   z-index: 2;
 }
-.header .home {
+.head .home {
   display: flex;
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
-.header .navheader {
+.head .navheader {
   justify-content: stretch;
   font-family: "Poppins", sans-serif;
 }
-.header .imglogo {
+.head .imglogo {
   height: 5rem;
 }
-.header .discover {
+.head .discover {
   position: relative;
   left: 2rem;
 }
-.header a {
+.head a {
   text-decoration: none;
   color: whitesmoke;
   font-size: 1rem;
@@ -70,21 +69,23 @@
   border-radius: 0.5rem;
   background-color: rgba(245, 245, 245, 0.1);
 }
-.header h1 {
+.head h1 {
   font-size: 2rem;
 }
 
 @media all and (max-width: 769px) {
-  .header {
-    position: absolute;
+  .head {
     color: whitesmoke;
+    margin: 0;
+    padding: 0;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
     z-index: 2;
   }
-  .header .imglogo {
+  .head .imglogo {
     height: 4rem;
+    display: flex;
   }
 
   .navheader {
@@ -422,8 +423,8 @@ td, th {
     font-size: 0.8rem;
   }
   .newscont input {
-    margin-top: 2rem;
-    font-size: 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
   }
 }
 .content {
@@ -737,4 +738,75 @@ a {
   padding-right: 1rem;
   border-radius: 0.2rem;
   background-color: whitesmoke;
+}
+
+@media all and (max-width: 769px) {
+  .lutbox {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .lutbox .lutimg {
+    background-image: url("../img/franco0.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+  .lutbox .lutimg--1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/franco0.png");
+    background-size: cover;
+  }
+  .lutbox .lutimg--2 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/franco1.png");
+    background-size: cover;
+  }
+  .lutbox .lutimg--3 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/franco2.png");
+    background-size: cover;
+  }
+  .lutbox .lutimg--4 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/franco3.png");
+    background-size: cover;
+  }
+
+  .lutcontent {
+    width: 100%;
+    padding: 0;
+    color: whitesmoke;
+  }
+  .lutcontent p {
+    font-size: 1rem;
+  }
+
+  .lutbtncontent {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .lutbtncontent label {
+    margin: 0;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=main.css.map */
