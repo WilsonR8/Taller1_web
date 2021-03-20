@@ -96,8 +96,6 @@ td, th {
      margin-bottom:2rem; 
     }
     
-}
-
 .btn{
     text-decoration: none;
     color: black;
@@ -107,4 +105,92 @@ td, th {
     padding-right: 1rem;
     border-radius: 0.2rem;
     background-color:whitesmoke;
+}
+
+
+
+}
+
+
+
+
+@media all and (max-width:769px){
+
+    .tbg > div{
+        width: 100%;
+        height: 100%;
+        min-height: 600px;
+        background-color: rgba($color: black, $alpha: 0.8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabletitlebg{
+        background-color: black;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .tbg{
+        background-image: url('../img/pack.jpg');
+        background-position-y: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 600px;
+        
+    }
+
+    .tabletitlecont{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        
+        h2{
+            color: whitesmoke;
+            width: 80%;
+            font-size: 2rem;
+        }
+    
+        p{
+            margin-top: 1rem;
+            color: whitesmoke;
+            font-size: 1rem;
+            
+        }
+    
+    }
+
+    .tablecont{
+        padding-top: 1.2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: whitesmoke; 
+    }    
+    td, th { 
+        padding: 9px; 
+        border-bottom: 1px solid whitesmoke; 
+        text-align: left; 
+    }
+
+    .addcart{
+   
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+    
+        p{
+         color: whitesmoke;  
+         font-size: 0.8rem;
+         margin-bottom:2rem; 
+        }
+    }
+    
+    .btn{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        border-radius: 0.2rem;
+        background-color:whitesmoke;
+        }
 }

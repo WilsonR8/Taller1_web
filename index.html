@@ -10,8 +10,10 @@
 
     <title>Willfredo</title>
 
-    <link rel="stylesheet" href="./styles/main.css">
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="./styles/main.css">
+   
+
 
 </head>
 
@@ -35,6 +37,7 @@
             <video autoplay muted loop>
                 <source src="./media/bannerrr.mp4" type="video/mp4">
             </video>
+            <div class="overlay"></div>
             <section class="contentbanner">
                 <h2>For every passion and dream we accomplish together</h2>
                 <p class="p1">In this journey to become a designer, filmmaker or editor, I will show you the path that I
@@ -161,18 +164,6 @@
                 </div>
 
             </div>
-
-            <script type="text/javascript">
-                var counter = 1;
-                setInterval(function () {
-                    document.getElementById('radiobtn' + counter).checked = true;
-                    counter++;
-                    if (counter > 3) {
-                        counter = 1;
-                    }
-                }, 5000);
-            </script>
-
         </section>
 
         <!-- News Letter-->
@@ -240,6 +231,9 @@
 
 
     </footer>
+
+
+    <script src="./scripts/main.js"></script>
 </body>
 
 </html>

@@ -18,8 +18,17 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 0.9;
   margin: 0;
+  filter: blur(10px);
+}
+
+.overlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .header {
@@ -63,6 +72,27 @@
   font-size: 2rem;
 }
 
+@media all and (max-width: 769px) {
+  .header {
+    position: absolute;
+    color: whitesmoke;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    z-index: 2;
+  }
+  .header .imglogo {
+    height: 4rem;
+  }
+
+  .navheader {
+    display: none;
+  }
+
+  .discover {
+    display: none;
+  }
+}
 .contentbanner {
   min-height: 700px;
   padding-top: 10rem;
@@ -107,6 +137,51 @@
   font-size: 40px;
 }
 
+@media all and (max-width: 769px) {
+  .contentbanner {
+    min-height: 1000px;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    z-index: 10;
+  }
+  .contentbanner h2 {
+    width: 80%;
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+  .contentbanner .p1 {
+    padding-top: 1rem;
+    width: 70%;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+  .contentbanner .p2 {
+    padding-top: 1rem;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .contentbanner .btnhead {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.2rem;
+    background-color: whitesmoke;
+  }
+  .contentbanner .iconify {
+    position: absolute;
+    right: 50%;
+    bottom: 5%;
+    color: whitesmoke;
+    font-size: 40px;
+  }
+}
 .tabletitlebg {
   background-color: black;
   padding-top: 2rem;
@@ -181,8 +256,7 @@ td, th {
   font-size: 0.8rem;
   margin-bottom: 2rem;
 }
-
-.btn {
+.addcart .btn {
   text-decoration: none;
   color: black;
   font-size: 1rem;
@@ -193,6 +267,78 @@ td, th {
   background-color: whitesmoke;
 }
 
+@media all and (max-width: 769px) {
+  .tbg > div {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tabletitlebg {
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .tbg {
+    background-image: url("../img/pack.jpg");
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+  }
+
+  .tabletitlecont {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .tabletitlecont h2 {
+    color: whitesmoke;
+    width: 80%;
+    font-size: 2rem;
+  }
+  .tabletitlecont p {
+    margin-top: 1rem;
+    color: whitesmoke;
+    font-size: 1rem;
+  }
+
+  .tablecont {
+    padding-top: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: whitesmoke;
+  }
+
+  td, th {
+    padding: 9px;
+    border-bottom: 1px solid whitesmoke;
+    text-align: left;
+  }
+
+  .addcart {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .addcart p {
+    color: whitesmoke;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    background-color: whitesmoke;
+  }
+}
 .newsletter {
   padding-bottom: 5rem;
   padding-left: 10rem;
@@ -236,6 +382,44 @@ td, th {
   font-size: 1rem;
 }
 
+@media all and (max-width: 769px) {
+  .newsletter {
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    background-color: #131313;
+  }
+
+  .imgnews {
+    border-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 30%;
+    overflow: hidden;
+  }
+  .imgnews img {
+    position: relative;
+    left: -180px;
+    width: 500px;
+  }
+
+  .newscont {
+    padding: 1rem;
+    max-width: 15rem;
+  }
+  .newscont h3 {
+    font-size: 2rem;
+  }
+  .newscont p {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .newscont input {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+}
 .content {
   background-color: #262626;
   color: whitesmoke;

@@ -50,3 +50,63 @@
     
 }
 
+@media all and (max-width:769px){
+
+    .contentbanner{
+        min-height: 1000px;
+        padding-top: 10rem;
+        padding-left:2rem;
+        padding-right: 2rem;
+        position:relative;
+        z-index: 10;
+
+
+    h2{
+        width: 80%;
+        color: whitesmoke;
+        font-size: 2rem;
+    }
+
+    .p1{
+        padding-top: 1rem;
+        width: 70%;
+        color: whitesmoke;
+        font-size: 1rem;
+    }
+
+    .p2{
+        padding-top: 1rem;
+        width: 100%;
+        color: whitesmoke;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .btnhead{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 0.2rem;
+        background-color:whitesmoke;
+    }
+
+    .iconify{
+        position: absolute;
+        right: 50%;
+        bottom: 5%;
+        color: whitesmoke;
+        font-size: 40px;
+    }
+
+
+
+    }
+
+
+
+
+}
+
