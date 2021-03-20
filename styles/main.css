@@ -248,8 +248,8 @@ td, th {
 
 .addcart {
   padding-top: 3rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 .addcart p {
   color: whitesmoke;
@@ -339,8 +339,8 @@ td, th {
 }
 .newsletter {
   padding-bottom: 5rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
   padding-top: 5rem;
   background-color: #131313;
 }
@@ -515,7 +515,7 @@ a {
 
 .slide {
   width: 100%;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .slide img {
@@ -633,4 +633,88 @@ a {
     justify-content: center;
     margin-top: 160px;
   }
+}
+.luts {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.lutbox {
+  padding: 3rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.lutbox .lutimg {
+  background-image: url("../img/1.png");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+}
+.lutbox .lutimg--1 {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/1.png");
+  background-size: cover;
+}
+.lutbox .lutimg--2 {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/after.jpg");
+  background-size: cover;
+}
+.lutbox .lutimg--3 {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/photoshop.jpg");
+  background-size: cover;
+}
+.lutbox .lutimg--4 {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  background-image: url("../img/ilustrator.jpg");
+  background-size: cover;
+}
+
+.lutcontent {
+  width: 50%;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  color: whitesmoke;
+}
+.lutcontent p {
+  font-size: 2rem;
+}
+
+.lutbtncontent {
+  width: 50%;
+  padding: 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.lutbtncontent label {
+  padding: 1rem;
+  margin: 0;
+}
+
+.btnlut {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.2rem;
+  background-color: whitesmoke;
 }/*# sourceMappingURL=main.css.map */

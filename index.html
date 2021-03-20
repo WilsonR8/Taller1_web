@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <meta name="author" content="Wilson Steven Suarez">
     <meta name="keywords" content="web developmnet, html, css, sass">
 
@@ -12,7 +13,7 @@
 
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <link rel="stylesheet" href="./styles/main.css">
-   
+
 
 
 </head>
@@ -55,6 +56,43 @@
 
 
         </div>
+
+        <!-- Image Slider-->
+        <section class="imgslider">
+            <div class="slider">
+                <div class="slides">
+                    <!-- btn-->
+                    <input type="radio" name="radiobtn" id="radiobtn1">
+                    <input type="radio" name="radiobtn" id="radiobtn2">
+                    <input type="radio" name="radiobtn" id="radiobtn3">
+                    <!-- slide images-->
+                    <div class="slide first">
+                        <img src="./img/ilustrator.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/photoshop.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/after.jpg" alt="">
+                    </div>
+                    <!-- auto nav-->
+                    <div class="autonav">
+                        <div class="autotbn1"></div>
+                        <div class="autotbn2"></div>
+                        <div class="autotbn3"></div>
+                    </div>
+
+                </div>
+                <!-- manual nav-->
+                <div class="manualnav">
+                    <label for="radiobtn1" class="manualbtn"></label>
+                    <label for="radiobtn2" class="manualbtn"></label>
+                    <label for="radiobtn3" class="manualbtn"></label>
+                </div>
+
+            </div>
+        </section>
+
 
         <!-- Package Discount-->
         <section class="pack" id="2">
@@ -130,41 +168,37 @@
 
         </section>
 
-        <!-- Image Slider-->
-        <section class="imgslider">
-            <div class="slider">
-                <div class="slides">
-                    <!-- btn-->
-                    <input type="radio" name="radiobtn" id="radiobtn1">
-                    <input type="radio" name="radiobtn" id="radiobtn2">
-                    <input type="radio" name="radiobtn" id="radiobtn3">
-                    <!-- slide images-->
-                    <div class="slide first">
-                        <img src="./img/ilustrator.jpg" alt="">
+        <!-- Lut gallery-->
+        <section class="luts" id="3">
+            <div class="lutbox">
+                <div class="lutimg"></div>
+                <div class="lutcontent">
+                    <p>Try diferent Lut's presets to your image, you can preview the results and choose from our gallery
+                    </p>
+                    <div class="lutbtncontent">
+                        <label class="lutbtn">
+                            <input type="radio" name="lutbtn1" class="lutbtn1" >
+                            Raw
+                        </label>
+                        <label class="lutbtn">
+                            <input type="radio" name="lutbtn1" class="lutbtn1" >
+                            Lut1
+                        </label>
+                        <label class="lutbtn">
+                            <input type="radio" name="lutbtn1" class="lutbtn1" >
+                            Lut2
+                        </label>
+                        <label class="lutbtn">
+                            <input type="radio" name="lutbtn1" class="lutbtn1">
+                            Lut3
+                        </label>
                     </div>
-                    <div class="slide">
-                        <img src="./img/photoshop.jpg" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./img/after.jpg" alt="">
-                    </div>
-                    <!-- auto nav-->
-                    <div class="autonav">
-                        <div class="autotbn1"></div>
-                        <div class="autotbn2"></div>
-                        <div class="autotbn3"></div>
-                    </div>
-
+                    <a class="btnlut">Add to cart</a>
                 </div>
-                <!-- manual nav-->
-                <div class="manualnav">
-                    <label for="radiobtn1" class="manualbtn"></label>
-                    <label for="radiobtn2" class="manualbtn"></label>
-                    <label for="radiobtn3" class="manualbtn"></label>
-                </div>
-
             </div>
+
         </section>
+
 
         <!-- News Letter-->
         <section class="newsletter">
