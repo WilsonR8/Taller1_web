@@ -37,3 +37,45 @@ a{
     border-radius: 0.5rem;
     background-color:rgba($color: whitesmoke, $alpha: 0.1); */
 }
+
+
+@media all and (max-width:769px){
+    .content{
+        background-color: #262626;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-top: 2rem;
+
+        a{
+            display: none;
+        }
+
+       
+     
+        }
+
+
+        .footimglogo{
+            width:7rem;
+            height: 7rem;
+            
+            img{
+                height: 100%;
+            }
+        }
+            
+          h5{
+            padding: 1rem;
+            font-size: 1rem;
+            right: 50%;
+        }
+
+       
+        p{
+            padding-top: 2rem;
+        }
+}  
+        
+        
