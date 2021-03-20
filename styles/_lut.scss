@@ -6,6 +6,7 @@
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
  
 }
 
@@ -20,7 +21,7 @@
    
 
     .lutimg{
-    background-image: url("../img/1.png");
+    background-image: url("../img/franco0.png");
     background-size: cover;
     width: 50%;
     height: 500px;;
@@ -29,7 +30,7 @@
             display: flex;
             width: 50%;
             height: 500px;
-            background-image: url("../img/1.png");
+            background-image: url("../img/franco0.png");
             background-size: cover;
         }
 
@@ -37,7 +38,7 @@
             display: flex;
             width: 50%;
             height: 500px;
-            background-image: url("../img/after.jpg");
+            background-image: url("../img/franco1.png");
             background-size: cover;
         }
 
@@ -45,7 +46,7 @@
             display: flex;
             width: 50%;
             height: 500px;
-            background-image: url("../img/photoshop.jpg");
+            background-image: url("../img/franco2.png");
             background-size: cover;
         }
 
@@ -53,7 +54,7 @@
             display: flex;
             width: 50%;
             height: 500px;
-            background-image: url("../img/ilustrator.jpg");
+            background-image: url("../img/franco3.png");
             background-size: cover;
         }
     }
@@ -66,22 +67,34 @@
     color: whitesmoke;
 
     p{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
 .lutbtncontent{
     width: 50%;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0;
     display: flex;
     flex-direction: column;
     
     label{
-        padding: 1rem;
         margin: 0;
+        border: 2px solid whitesmoke;
+        padding: 5px;
+        border-radius: 0.5rem;
+        margin: 0.5rem;
+        cursor: pointer;
+        font-size: 0.8rem;
     }
 }
+
+    .lutbtncontent label:hover{
+        background: whitesmoke;
+        color: black;
+        
+    }
+
     .btnlut{
         text-decoration: none;
         color: black;

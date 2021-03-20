@@ -47,9 +47,11 @@
 .header .home {
   display: flex;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .header .navheader {
   justify-content: stretch;
+  font-family: "Poppins", sans-serif;
 }
 .header .imglogo {
   height: 5rem;
@@ -99,6 +101,7 @@
   padding-left: 7rem;
   padding-right: 7rem;
   position: relative;
+  font-family: "Poppins", sans-serif;
   z-index: 10;
 }
 .contentbanner h2 {
@@ -191,6 +194,7 @@
 .tabletitlecont {
   padding-left: 7rem;
   padding-right: 7rem;
+  font-family: "Poppins", sans-serif;
 }
 .tabletitlecont h2 {
   color: whitesmoke;
@@ -227,6 +231,7 @@
   flex-wrap: wrap;
   align-items: baseline;
   padding-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 table {
@@ -250,6 +255,7 @@ td, th {
   padding-top: 3rem;
   padding-left: 7rem;
   padding-right: 7rem;
+  font-family: "Poppins", sans-serif;
 }
 .addcart p {
   color: whitesmoke;
@@ -343,6 +349,7 @@ td, th {
   padding-right: 7rem;
   padding-top: 5rem;
   background-color: #131313;
+  font-family: "Poppins", sans-serif;
 }
 
 .newsletter > .newsbox {
@@ -378,6 +385,7 @@ td, th {
 .newscont input {
   margin-top: 2rem;
   font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 @media all and (max-width: 769px) {
@@ -428,6 +436,7 @@ td, th {
   padding: 10rem;
   padding-top: 5rem;
   padding-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .footimglogo {
@@ -641,6 +650,7 @@ a {
   flex-direction: column;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .lutbox {
@@ -652,7 +662,7 @@ a {
   flex-direction: row;
 }
 .lutbox .lutimg {
-  background-image: url("../img/1.png");
+  background-image: url("../img/franco0.png");
   background-size: cover;
   width: 50%;
   height: 500px;
@@ -661,28 +671,28 @@ a {
   display: flex;
   width: 50%;
   height: 500px;
-  background-image: url("../img/1.png");
+  background-image: url("../img/franco0.png");
   background-size: cover;
 }
 .lutbox .lutimg--2 {
   display: flex;
   width: 50%;
   height: 500px;
-  background-image: url("../img/after.jpg");
+  background-image: url("../img/franco1.png");
   background-size: cover;
 }
 .lutbox .lutimg--3 {
   display: flex;
   width: 50%;
   height: 500px;
-  background-image: url("../img/photoshop.jpg");
+  background-image: url("../img/franco2.png");
   background-size: cover;
 }
 .lutbox .lutimg--4 {
   display: flex;
   width: 50%;
   height: 500px;
-  background-image: url("../img/ilustrator.jpg");
+  background-image: url("../img/franco3.png");
   background-size: cover;
 }
 
@@ -693,19 +703,29 @@ a {
   color: whitesmoke;
 }
 .lutcontent p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .lutbtncontent {
   width: 50%;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 .lutbtncontent label {
-  padding: 1rem;
   margin: 0;
+  border: 2px solid whitesmoke;
+  padding: 5px;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.lutbtncontent label:hover {
+  background: whitesmoke;
+  color: black;
 }
 
 .btnlut {
